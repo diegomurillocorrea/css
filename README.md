@@ -66,3 +66,27 @@ E[attribute|=value]
 :first-letter
 :first-line
 ```
+### CSS Level 3 🔵
+```css
+::before
+::after
+::first-letter
+::first-line
+E[attribute^=value]
+E[attribute$=value]
+E[attribute*=value]
+E ~ F
+:root
+E:last-child
+E:only-child
+E:nth-child(n)
+E:nth-last-child(n)
+E:first-of-type
+E:last-of-type
+E:only-of-type
+E:nth-of-type(n)
+E:nth-last-of-type(n)
+E:empty
+E:not(selector)
+E:target
+```
