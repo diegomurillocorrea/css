@@ -71,28 +71,31 @@ Structural pseudo-classes - :root, :empty, :last-child,
 ```
 ### CSS Level 4 🔵
 ```css
-:blank
-:indeterminate
-:placeholder-shown
-:not(s1, s2)
-:matches(s1, s2)
-:has(rs1, rs2)
-[foo="bar" i]
-:dir(ltr)
-:lang(zh, *-hant)
-:any-link
-:scope
-:current
-:focus-ring
-:drop
-:drop(active)
-:drop(valid)
-:drop(invalid)
-:user-error
-E >> F
-F || E
-:nth-column(n)
-:nth-last-column(n)
+Case-insensitive attribute selector - [attribute='value' i]
+Blank pseudo-class - :blank
+Structural pseudo-class - :nth-match()
+Dir pseudo-class - :dir(ltr)
+Drop pseudo-class* - :drop
+Hyperlink pseudo-class - :any-link
+Lang pseudo-class - :lang(*-en)
+Local link pseudo-class - :local-link
+Matches-any pseudo-class - :matches(s1, s2)
+Mutability* pseudo-class - :read-only, :read-write
+Negation pseudo-class - :not(s1, s2)
+Optionality pseudo-class - :required, :optional
+Placeholder pseudo-class - :placeholder-shown
+Indeterminate-value - :indeterminate
+Validity pseudo-classes - :valid, :invalid
+Relational pseudo-class - :has()
+Scope pseudo-class - :scope
+Range pseudo-classes - :in-range, :out-of-range
+Grid pseudo-classes - :column(selector), :nth-column(n), :nth-last-column(n)
+Time pseudo-class - :current
+Default option pseudo-class * :default
+Column combinator* - E || F
+Descendant combinator - E >> F
+Reference combinator - E /foo/ F
+Parent combinator - E! > F
 ```
 ### UI / Selectors 🔵
 ```css
