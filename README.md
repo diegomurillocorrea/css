@@ -51,7 +51,7 @@ E F
 ```css
 CSS Level 2 Selectors
 *
-E > F
+E > F 
 E + F
 E[attribute]
 E[attribute=value]
