@@ -117,4 +117,18 @@ ol > li
 child selector 
 matches <li>s in <ol> but not 
 nested <ul>
+
+li.hasaclass + li
+adjacent sibling
+```
+### Selectors API 🔵
+```js
+var chil = $('#bar .foo');
+
+Natively
+var el   = document.querySelector('#bar');
+var chil = el.querySelectorAll('.foo');
+
+or
+chil = document.querySelectorAll('#bar .foo');
 ```
