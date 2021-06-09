@@ -97,18 +97,12 @@ Descendant combinator - E >> F
 Reference combinator - E /foo/ F
 Parent combinator - E! > F
 ```
-### UI / Selectors 🔵
+### Specificity 🔵
 ```css
-E:enabled
-E:disabled
-E:checked
-E:default
-E:valid
-E:invalid
-E:in-range
-E:out-of-range
-E:required
-E:optional
-E:read-only
-E:read-write
+1-0-0: ID selector
+0-1-0: Class selector (Also attribute selector & pseudoclass)
+0-0-1: Element Selector
+
+The * selector, or global selector, has no value.
+* {} 0-0-0
 ```
