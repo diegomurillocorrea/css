@@ -35,3 +35,13 @@ selector ~ relation {
 **.myClass** *class*
 
 **li** *tag name*
+
+### Selectors in CSS Level 1
+```css
+E
+E F
+.class
+#ID
+:link
+:active
+```
