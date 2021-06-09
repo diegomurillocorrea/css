@@ -1,6 +1,6 @@
 # CSS Repository 🖼️🖌️📸
 
-## Selectors 🖋️
+## CSS Selectors 🖋️
 
 ### Selectors 🔵
 
@@ -30,3 +30,6 @@ selector ~ relation {
    <li>item 3</li>
 </ul>
 ```
+**#myID** *ID*
+**.myClass** *class*
+**li** *tag name*
