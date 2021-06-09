@@ -90,3 +90,28 @@ E:empty
 E:not(selector)
 E:target
 ```
+### CSS Level 3 🔵
+```css
+:blank
+:indeterminate
+:placeholder-shown
+:not(s1, s2)
+:matches(s1, s2)
+:has(rs1, rs2)
+[foo="bar" i]
+:dir(ltr)
+:lang(zh, *-hant)
+:any-link
+:scope
+:current
+:focus-ring
+:drop
+:drop(active)
+:drop(valid)
+:drop(invalid)
+:user-error
+E >> F
+F || E
+:nth-column(n)
+:nth-last-column(n)
+```
