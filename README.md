@@ -49,7 +49,6 @@ E F
 ```
 ### CSS Level 2 🔵
 ```css
-CSS Level 2 Selectors
 *
 E > F 
 E + F
