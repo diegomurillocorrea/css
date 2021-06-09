@@ -40,12 +40,12 @@ selector ~ relation {
 
 ### CSS Level 1 🔵
 ```css
-E
-E F
-.class
-#ID
-:link
-:active
+Type selector - E
+Descendant selector - E F
+Class selector - .class
+ID selector - #elID
+Link pseudo-class - :link
+User action pseudo-class - :active
 ```
 ### CSS Level 2 🔵
 ```css
