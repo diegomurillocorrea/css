@@ -59,27 +59,13 @@ Adjacent sibling combinator - E + F
 ```
 ### CSS Level 3 🔵
 ```css
-::before
-::after
-::first-letter
-::first-line
-E[attribute^=value]
-E[attribute$=value]
-E[attribute*=value]
-E ~ F
-:root
-E:last-child
-E:only-child
-E:nth-child(n)
-E:nth-last-child(n)
-E:first-of-type
-E:last-of-type
-E:only-of-type
-E:nth-of-type(n)
-E:nth-last-of-type(n)
-E:empty
-E:not(selector)
-E:target
+Attribute selectors - [attribute^='val'], [attribute$='lue'], [attribute*='alu']
+Target pseudo-class - :target
+Negation pseudo-class - :not(s)
+General sibling combinator - E ~ F
+Enabled and Disabled pseudo-class - :enabled, :disabled
+Selected-option - :checked
+Structural pseudo-classes - :root, :empty, :last-child, :only-child, :first-of-type, :last-of-type, :only-of-type, :nth-child(n), :nth-last-child(n), :nth-of-type(n), :nth-last-of-type(n)
 ```
 ### CSS Level 4 🔵
 ```css
