@@ -36,7 +36,9 @@ selector ~ relation {
 
 **li** *tag name*
 
-### Selectors in CSS Level 1
+## Selectors in CSS 🖋️
+
+### CSS Level 1 🔵
 ```css
 E
 E F
@@ -44,4 +46,24 @@ E F
 #ID
 :link
 :active
+```
+### CSS Level 2 🔵
+```css
+CSS Level 2 Selectors
+*
+E > F
+E + F
+E[attribute]
+E[attribute=value]
+E[attribute~=value]
+E[attribute|=value]
+:first-child
+:lang(en)
+:focus
+:hover
+:visited
+:before
+:after
+:first-letter
+:first-line
 ```
