@@ -110,12 +110,11 @@ The * selector, or global selector, has no value.
 ```css
 ul li,
 ol li
-```
-*descendant selector 
-matches nested <li>s*
-```css
+descendant selector 
+matches nested <li>s
+
 ol > li
-```
-*child selector 
+child selector 
 matches <li>s in <ol> but not 
-nested <ul>*
+nested <ul>
+```
