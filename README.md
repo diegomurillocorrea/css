@@ -25,8 +25,8 @@ selector ~ relation {
 
 ```html
 <ul>
-<li id="myID" class="myClass">item 1</li>
-<li class="myClass">item 2</li>
-<li>item 3</li>
+   <li id="myID" class="myClass">item 1</li>
+   <li class="myClass">item 2</li>
+   <li>item 3</li>
 </ul>
 ```
