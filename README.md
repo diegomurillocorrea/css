@@ -65,7 +65,9 @@ Negation pseudo-class - :not(s)
 General sibling combinator - E ~ F
 Enabled and Disabled pseudo-class - :enabled, :disabled
 Selected-option - :checked
-Structural pseudo-classes - :root, :empty, :last-child, :only-child, :first-of-type, :last-of-type, :only-of-type, :nth-child(n), :nth-last-child(n), :nth-of-type(n), :nth-last-of-type(n)
+Structural pseudo-classes - :root, :empty, :last-child, 
+:only-child, :first-of-type, :last-of-type, :only-of-type, 
+:nth-child(n), :nth-last-child(n), :nth-of-type(n), :nth-last-of-type(n)
 ```
 ### CSS Level 4 🔵
 ```css
