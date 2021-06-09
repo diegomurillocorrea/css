@@ -49,22 +49,13 @@ User action pseudo-class - :active
 ```
 ### CSS Level 2 🔵
 ```css
-*
-E > F 
-E + F
-E[attribute]
-E[attribute=value]
-E[attribute~=value]
-E[attribute|=value]
-:first-child
-:lang(en)
-:focus
-:hover
-:visited
-:before
-:after
-:first-letter
-:first-line
+Universal selector - *
+Lang pseudo-class - :lang(en)
+User action pseudo-class - :hover, :focus
+Structural pseudo-class - :first-child
+Child combinator - E > F
+Attribute Selectors - [attribute], [attribute='value'], [attribute~='value'], [attribute|='en']
+Adjacent sibling combinator - E + F
 ```
 ### CSS Level 3 🔵
 ```css
