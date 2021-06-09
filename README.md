@@ -90,7 +90,7 @@ E:empty
 E:not(selector)
 E:target
 ```
-### CSS Level 3 🔵
+### CSS Level 4 🔵
 ```css
 :blank
 :indeterminate
@@ -114,4 +114,19 @@ E >> F
 F || E
 :nth-column(n)
 :nth-last-column(n)
+```
+### UI / Selectors 🔵
+```css
+E:enabled
+E:disabled
+E:checked
+E:default
+E:valid
+E:invalid
+E:in-range
+E:out-of-range
+E:required
+E:optional
+E:read-only
+E:read-write
 ```
